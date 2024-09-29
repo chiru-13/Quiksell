@@ -1,4 +1,4 @@
-# Kanban Board Assignment
+# Quicksell Assignment
 
 ## **Overview**
 This project is a Kanban board application built with **ReactJS** that dynamically fetches data from an API and organizes tasks in a Kanban-style layout. The board provides three grouping options: by **Status**, **User**, and **Priority**, and allows sorting by **Priority** and **Title**.
