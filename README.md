@@ -1,30 +1,31 @@
-# Quicksell-Frontend-assignment
+# Kanban Board Assignment
 
-## 📌About Project
-Develop a React-based Kanban-board app that interfaces with the provided API by Quicksell. Users gain the ability to group tickets dynamically by status, user, or priority, and sort them based on priority or title. Priority levels encompass Urgent, High, Medium, Low, and No priority, mapped to values 4, 3, 2, 1, and 0
+## **Overview**
+This project is a Kanban board application built with **ReactJS** that dynamically fetches data from an API and organizes tasks in a Kanban-style layout. The board provides three grouping options: by **Status**, **User**, and **Priority**, and allows sorting by **Priority** and **Title**.
 
-## 🖥️ Tech Stack
-**Frontend :**
-<code><img height="40" src="https://raw.githubusercontent.com/AnmolVerma404/AnmolVerma404/main/gif/css.webp" alt="css"></code>
-<code> <img src="https://raw.githubusercontent.com/AnmolVerma404/AnmolVerma404/main/gif/js.webp" height="40" alt="js"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/AnmolVerma404/AnmolVerma404/main/gif/react.webp" alt="react"></code>
-![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+## **Live Demo**
+[https://quiksell-eight.vercel.app/]()
+
+## **Features**
+- **Grouping:** Users can group tasks by **Status**, **User**, or **Priority**.
+- **Sorting:** Tasks can be sorted in **Descending Priority** or **Ascending Title** order.
+- **Dynamic Fetching:** Data is dynamically fetched from the provided API.
+- **State Persistence:** The application saves user preferences for grouping and sorting even after page reload.
+- **Responsive Design:** The layout is fully responsive and adjusts based on the screen size.
+- **Pure CSS:** Styled without any external CSS libraries (Bootstrap, Tailwind, etc.), ensuring a custom and clean UI.
 
 
-## Sneak Peek of  Kanban-Board 🙈 :
+### **API Information**
+The application interacts with the following API to fetch task data:
 
-<table>
-  <tr>
-    <td><img src="https://github.com/vishal1patidar/Quicksell-Frontend-assignment/assets/79128256/6119f174-c748-40c7-98a9-0b80c5573151" alt="" /></td>
-    <td><img src="https://github.com/vishal1patidar/Quicksell-Frontend-assignment/assets/79128256/870bb1a3-33b7-443b-add5-dcc1fc81a4c6" alt="" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/vishal1patidar/Quicksell-Frontend-assignment/assets/79128256/ae532c31-ceb8-4414-aae2-735c2b4c40d1" alt="" /></td>
-    <td><img src="https://github.com/vishal1patidar/Quicksell-Frontend-assignment/assets/79128256/bf8202a8-6633-49b2-8e26-19f0db1e17ce" alt="" /></td>
-  </tr>
-</table>
+```
+https://api.quicksell.co/v1/internal/frontend-assignment
+```
 
-© 2023 Vishal Patidar
+## **Responsive Design**
+The application is fully responsive and adapts to different screen sizes using CSS Grid and Flexbox for layout.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
+## **How to Use**
+1. **Select Grouping Option:** Use the dropdown to group tasks by **Status**, **User**, or **Priority**.
+2. **Sort Tasks:** Sort tasks either by **Priority** (descending) or **Title** (ascending).
+3. **Persist Settings:** The app automatically saves your grouping and sorting preferences even after reloading the page.
